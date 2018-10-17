@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- tde above 3 meta tags *must* come first in tde head; any otder head content must come *after* tdese tags -->
+    <title>Reação 11</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style2.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view tde page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container"   align="center"">
+      <table class="table table-bordered">
+        <h1>Preencha as lacunas à esquerda do tipo de ligação:</h1>
+        <h3>(Consulte a janela anterior para ver a quantidade de ligações)</h3>
+        <thead>
+          <tr>
+            <td scope="col">Ligações quebradas (reagentes)</td>
+            <td scope="col">Ligações formadas (produtos)</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input class="field" id="field1" type="number" name="quantity" min="1" max="10" oninput="get()">C-H = <input class="field_resposta" id="field2" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+            <td><input class="field" id="field3" type="number" name="quantity" min="1" max="10" oninput="get()">C-H = <input class="field_resposta" id="field4" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+          </tr>
+          <tr>
+            <td><input class="field" id="field5" type="number" name="quantity" min="1" max="10" oninput="get()">C-C = <input class="field_resposta" id="field6" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+            <td><input class="field" id="field7" type="number" name="quantity" min="1" max="10" oninput="get()">C-C = <input class="field_resposta" id="field8" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+          </tr>
+          <tr>
+            <td><input class="field" id="field9" type="number" name="quantity" min="1" max="10" oninput="get()">C-S = <input class="field_resposta" id="field10" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+            <td><input class="field" id="field11" type="number" name="quantity" min="1" max="10" oninput="get()">C-S = <input class="field_resposta" id="field12" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+          </tr>
+          <tr>
+            <td><input class="field" id="field13" type="number" name="quantity" min="1" max="10" oninput="get()">C-Br = <input class="field_resposta" id="field14" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+            <td><input class="field" id="field15" type="number" name="quantity" min="1" max="10" oninput="get()">C-Br = <input class="field_resposta" id="field16" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+          </tr>
+          <tr>
+            <td><input class="field" id="field17" type="number" name="quantity" min="1" max="10" oninput="get()">H-Br = <input class="field_resposta" id="field18" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+            <td><input class="field" id="field19" type="number" name="quantity" min="1" max="10" oninput="get()">H-Br = <input class="field_resposta" id="field20" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+          </tr>
+          <tr>
+            <td><input class="field" id="field24" type="number" name="quantity" min="1" max="10" oninput="get()">H-S = <input class="field_resposta" id="field25" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+            <td><input class="field" id="field26" type="number" name="quantity" min="1" max="10" oninput="get()">H-S = <input class="field_resposta" id="field27" type="number" name="quantity" min="1" max="10" oninput="get()">kJ</td>
+          </tr>
+          <tr>
+            <td>Total = <input class="field_resposta" id="field21" type="number" name="quantity" min="1" max="10">kJ</td>
+            <td>Total = <input class="field_resposta" id="field22" type="number" name="quantity" min="1" max="10">kJ</td>
+          </tr>
+          <tr>
+            <td colspan="2">Total (entalpia da reação) = <input class="field_resposta" id="field23" type="number" name="quantity" min="1" max="10">kJ</td>
+          </tr>
+        </tbody>
+      </table>
+      <button onclick="reacao()"  type="button" id="botao1" class="btn botao">Verificar</button>
+    </div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="js_exercicios/ex11.js"></script>
+  </body>
+</html>

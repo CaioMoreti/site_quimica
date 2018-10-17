@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2013, 7:09:35 AM
+    Author     : bugraozden
+*/
+
+.icon-select{
+    width:0px;
+ }
+
+ .icon-select .selected-box {
+
+     position: absolute;
+     margin: 0px;
+     padding: 0px;
+     width: 25px; /* sil */
+     height: 18px; /* sil */
+
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+
+ }
+
+ .icon-select .selected-box:hover {
+
+     position: absolute;
+     width: 25px; /* sil */
+     height: 18px; /* sil */
+
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+
+ }
+
+ .icon-select .selected-icon {
+
+     position: absolute;
+     margin: -2px;
+     padding: 1px;
+     top: -3px;
+     left: -1px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+     border: 1px solid #00000021;
+
+ }
+
+ .icon-select .component-icon{
+     position: absolute;
+     bottom:5px;
+     right:4px;
+ }
+
+ .icon-select .box {
+
+     position: absolute;
+     top: 16px;
+     left: -1px;
+     margin: 0px;
+     padding: 0px;
+     width: 107px;
+     height: 39px;
+     border: 1px solid #EEEEEE;
+     background-color: #EEEEEE;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+     overflow: auto;
+     z-index: 999;
+     /*
+     -webkit-overflow-scrolling: touch;
+     */
+
+ }
+
+ .icon-select .icon {
+     position: relative;
+     margin: 5px 0px 0px 5px;
+     padding: 0px;
+     width: 21px;
+     height: 28px;
+     border: 0.5px solid #CCCCCC;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+     overflow: hidden;
+     float: left;
+     background-color: #fff;
+
+ }
+
+ .icon-select .icon:hover {
+     border: 1px solid #000000;
+ }
+
+ .icon-select .icon.selected {
+     position: relative;
+     margin: 5px 0px 0px 5px;
+     padding: 0px;
+     width: 21px; /* sil */
+     height: 48px; /* sil */
+     border: 1px solid #EEEEEE;
+     background-color: #EEEEEE;
+
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     border-radius: 3px;
+
+     overflow:hidden;
+     float: left;
+ }

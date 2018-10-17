@@ -1,0 +1,58 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(rgba(80, 164, 255, 0.55), rgba(80, 164, 255, 0.55)), url(../assets/imgs/chemistry-wallpaper-PIC-HWB37092.jpg);
+    /*background: linear-gradient(rgba(169, 45, 45, 0.83), rgba(0, 172, 188, 0.71)), url(imgs/chemistry-wallpaper-PIC-HWB37092.jpg);*/
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.table{
+	width:  500px;
+}
+
+table {
+    width: 550px;
+    border-collapse:collapse;
+    margin: auto;
+    background-color: #17bdde42;
+    border: 2px solid black;
+    table-layout: fixed;
+}
+td {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid green;
+    font-size: 18px;
+}
+td input {
+    width: 40px;
+    box-sizing: border-box;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.field_resposta{
+    width: 47px;
+    box-sizing: border-box;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 1px solid #72b8ef00;
+    background-color: transparent;
+    text-align: center;
+}
