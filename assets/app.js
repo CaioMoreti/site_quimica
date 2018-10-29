@@ -1210,6 +1210,22 @@ window.onload = function(){
     icons.push({'iconFilePath':'assets/imgs/tripla.svg', 'iconValue':'3'});
     iconSelect151.refresh(icons);
 
+    iconSelect152 = new IconSelect("select152");
+    var icons = [];
+    icons.push({'iconFilePath':'assets/imgs/branco.svg', 'iconValue':'0'});
+    icons.push({'iconFilePath':'assets/imgs/simpl.svg', 'iconValue':'1'});
+    icons.push({'iconFilePath':'assets/imgs/dupla.svg', 'iconValue':'2'});
+    icons.push({'iconFilePath':'assets/imgs/tripla.svg', 'iconValue':'3'});
+    iconSelect152.refresh(icons);
+
+    iconSelect153 = new IconSelect("select153");
+    var icons = [];
+    icons.push({'iconFilePath':'assets/imgs/branco.svg', 'iconValue':'0'});
+    icons.push({'iconFilePath':'assets/imgs/simpl.svg', 'iconValue':'1'});
+    icons.push({'iconFilePath':'assets/imgs/dupla.svg', 'iconValue':'2'});
+    icons.push({'iconFilePath':'assets/imgs/tripla.svg', 'iconValue':'3'});
+    iconSelect153.refresh(icons);
+
 
     /*Ex1*/
     document.getElementById("select1").addEventListener('changed', function(e){
@@ -1790,6 +1806,14 @@ window.onload = function(){
         s151 = iconSelect151.getSelectedValue();
     });
 
+    document.getElementById("select152").addEventListener('changed', function(e){
+        s152 = iconSelect152.getSelectedValue();
+    });
+
+    document.getElementById("select153").addEventListener('changed', function(e){
+        s153 = iconSelect153.getSelectedValue();
+    });
+
 
 
 
@@ -1975,7 +1999,7 @@ function reacao10() {
 function reacao11() {
 
     if(s119==1 && s120==1 && s121==1 && s122==1 && s123==1 && s124==1 && s125==1 &&
-     s126==1 && s127==1 && s128==1 && s129==1 && s130==1 && s131==1 && s132==1 && s133==1 && s134==1 && s135==1 && s136==1 && s137==1&& s151==1){
+     s126==1 && s127==1 && s128==1 && s129==1 && s130==1 && s131==1 && s132==1 && s133==1 && s134==1 && s135==1 && s136==1 && s137==1&& s151==1 && s152==1&& s153==1 ){
         botao11.classList.toggle("btn-danger", false); 
         document.getElementById("botao11").classList.add("btn-success"); 
         document.getElementById("botao11").innerHTML = "Correto";
@@ -1995,6 +2019,7 @@ function rad1(){
         document.getElementById("lab1").style.color = "#ff3333";
         document.getElementById("lab2").style.color = "#000";
         document.getElementById("lab3").style.color = "#000";
+        alert("Resposta incorreta. \nTente novamente!");
     }
 }
 
@@ -2011,6 +2036,7 @@ function rad3(){
         document.getElementById("lab3").style.color = "#ff3333";
         document.getElementById("lab2").style.color = "#000";
         document.getElementById("lab1").style.color = "#000";
+        alert("Resposta incorreta. \nTente novamente!");
     }
 }
 
@@ -2019,6 +2045,7 @@ function rad4(){
         document.getElementById("lab4").style.color = "#ff3333";
         document.getElementById("lab5").style.color = "#000";
         document.getElementById("lab6").style.color = "#000";
+        alert("Resposta incorreta. \nTente novamente!");
     }
 }
 
@@ -2035,6 +2062,7 @@ function rad6(){
         document.getElementById("lab6").style.color = "#ff3333";
         document.getElementById("lab4").style.color = "#000";
         document.getElementById("lab5").style.color = "#000";
+        alert("Resposta incorreta. \nTente novamente!");
     }
 }
 
@@ -2043,6 +2071,7 @@ function rad7(){
         document.getElementById("lab7").style.color = "#ff3333";
         document.getElementById("lab8").style.color = "#000";
         document.getElementById("lab9").style.color = "#000";
+        alert("Resposta incorreta. \nTente novamente!");
     }
 }
 
@@ -2059,5 +2088,6 @@ function rad9(){
         document.getElementById("lab9").style.color = "#ff3333";
         document.getElementById("lab7").style.color = "#000";
         document.getElementById("lab8").style.color = "#000";
+        alert("Resposta incorreta. \nTente novamente!");
     }
 }

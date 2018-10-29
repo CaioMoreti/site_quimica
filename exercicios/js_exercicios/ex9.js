@@ -1,4 +1,4 @@
-var a,b,c,d,e,f,g,h,i,j;
+var a,b,c,d,e,f,g,h,i,j,k,l;
 
 function get() {
         a = document.getElementById("field1").value;
@@ -11,6 +11,8 @@ function get() {
         h = document.getElementById("field15").value;
         i = document.getElementById("field17").value;
         j = document.getElementById("field19").value;
+        k = document.getElementById("field24").value;
+        l = document.getElementById("field26").value;
 
         var conta1 = a * 413;
         var conta2 = b *  (-413);
@@ -22,9 +24,11 @@ function get() {
         var conta8 = h *  (-567);
         var conta9 = i * 431;
         var conta10 = j *  (-431);
+        var conta11 = k * 348;
+        var conta12 = l *  (-348);
 
-        total1 = conta1 + conta3 + conta5 + conta7 + conta9;
-        total2 = conta2 + conta4 + conta6 + conta8 + conta10;
+        total1 = conta1 + conta3 + conta5 + conta7 + conta9 + conta11;
+        total2 = conta2 + conta4 + conta6 + conta8 + conta10 + conta12;
 
         totalEntalpia = total1 + total2;
 
@@ -38,6 +42,8 @@ function get() {
         document.getElementById("field16").value = conta8;
         document.getElementById("field18").value = conta9;
         document.getElementById("field20").value = conta10;
+        document.getElementById("field25").value = conta11;
+        document.getElementById("field27").value = conta12;
         document.getElementById("field21").value = total1;
         document.getElementById("field22").value = total2;
         document.getElementById("field23").value = totalEntalpia;
@@ -45,7 +51,8 @@ function get() {
 
 function reacao(){
 
-        if(a==0 && b==0 && c==2 && d==0 && e==0 && f==2 && g==2 && h==0 && i==0 && j==2){
+        if(a==0 && b==0 && c==2 && d==0 && e==0 && f==2 && g==2 && h==0 && i==0 && j==2 && k==0 && l==0 || 
+                a==1 && b==1 && c==5 && d==3 && e==0 && f==2 && g==2 && h=0 && i==0 && j==2 && k==1 && l==1){
                 botao1.classList.toggle("btn-danger", false); 
                 document.getElementById("botao1").classList.add("btn-success"); 
                 document.getElementById("botao1").innerHTML = "Correto";

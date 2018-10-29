@@ -51,7 +51,8 @@ function get() {
 
 function reacao(){
 
-        if(a==0 && b==0 && c==0 && d==1 && e==1 && f==0 && g==0 && h==2 && i==0 && j==0 && k==1 && l==0){
+        if(a==0 && b==0 && c==0 && d==1 && e==1 && f==0 && g==0 && h==2 && i==0 && j==0 && k==1 && l==0 ||
+                a==4 && b==4 && c==0 && d==1 && e==1 && f==0 && g==0 && h==2 && i==2 && j==2 && k==1 && l==0){
                 botao1.classList.toggle("btn-danger", false); 
                 document.getElementById("botao1").classList.add("btn-success"); 
                 document.getElementById("botao1").innerHTML = "Correto";

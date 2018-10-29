@@ -39,7 +39,7 @@ function get() {
 
 function reacao(){
 
-        if(a==4 && b==0 && c==0 && d==1 && e==1 && f==0 && g==0 && h==4){
+        if(a==4 && b==0 && c==0 && d==1 && e==1 && f==0 && g==0 && h==2){
                 botao1.classList.toggle("btn-danger", false); 
                 document.getElementById("botao1").classList.add("btn-success"); 
                 document.getElementById("botao1").innerHTML = "Correto";

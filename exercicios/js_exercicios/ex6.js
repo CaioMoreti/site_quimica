@@ -40,7 +40,7 @@ function get() {
 
 function reacao(){
 
-        if(a==0 && b==2 && c==0 && d==1 && e==1 && f==0 && g==1 && h==0){
+        if(a==0 && b==2 && c==0 && d==1 && e==1 && f==0 && g==1 && h==0 || a==4 && b==6 && c==0 && d==1 && e==1 && f==0 && g==1 && h==0){
                 botao1.classList.toggle("btn-danger", false); 
                 document.getElementById("botao1").classList.add("btn-success"); 
                 document.getElementById("botao1").innerHTML = "Correto";

@@ -33,7 +33,7 @@ function get() {
 
 function reacao(){
 
-        if(a==0 && b==0 && c==0 && d==1 && e==0 && f==0){
+        if(a==0 && b==0 && c==0 && d==2 && e==0 && f==0 || a==5 && b==5 && c==0 && d==2 && e==1 && f==1){
                 botao1.classList.toggle("btn-danger", false); 
                 document.getElementById("botao1").classList.add("btn-success"); 
                 document.getElementById("botao1").innerHTML = "Correto";

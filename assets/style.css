@@ -304,7 +304,7 @@ a:hover{
 #ex3tela3 #h1{
 	position: absolute;
     margin-top: 89px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 #ex3tela3 #c1{
@@ -467,6 +467,24 @@ a:hover{
     position: absolute;
     margin-top: 89px;
     margin-left: 239px;
+}
+
+#xa{
+    position: absolute;
+    margin-top: 136px;
+    margin-left: 139px;
+}
+
+#xb{
+    position: absolute;
+    margin-top: 136px;
+    margin-left: 89px;
+}
+
+#xc{
+    position: absolute;
+    margin-top: 136px;
+    margin-left: 34px;
 }
 
 /*Selects*/
@@ -1399,6 +1417,18 @@ a:hover{
     position: absolute;
 }
 
+#select152{
+    margin-top: 135px;
+    margin-left: 60px;
+    position: absolute;
+}
+
+#select153{
+    margin-top: 135px;
+    margin-left: 109px;
+    position: absolute;
+}
+
 /*Geral*/
 #rootwizard{
 	position: absolute;
@@ -1763,4 +1793,8 @@ input[type=number]::-webkit-inner-spin-button {
 .maior{
 	width: 300px;
 	margin-right: -1em;
+}
+
+.progress-bar{
+        background-color: limegreen;
 }
