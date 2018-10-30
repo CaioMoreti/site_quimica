@@ -1,5 +1,4 @@
 var a,b,c,d,e,f,g,h,i,j,k,l;
-
 function get() {
         a = document.getElementById("field1").value;
         b = document.getElementById("field3").value;
@@ -49,10 +48,11 @@ function get() {
         document.getElementById("field23").value = totalEntalpia;
 }
 
+
 function reacao(){
 
-        if(a==0 && b==0 && c==2 && d==0 && e==0 && f==2 && g==2 && h==0 && i==0 && j==2 && k==0 && l==0 || 
-                a==1 && b==1 && c==5 && d==3 && e==0 && f==2 && g==2 && h=0 && i==0 && j==2 && k==1 && l==1){
+        if(a==0 && b==0 && c==2 && d==0 && e==0 && f==2 && g==2 && h==0 && i==0 && j==2 && k==0 && l==0 ||
+                a==1 && b==1 && c==5 && d==3 && e==0 && f==2 && g==2 && h==0 && i==0 && j==2 && k==1 && l==1){
                 botao1.classList.toggle("btn-danger", false); 
                 document.getElementById("botao1").classList.add("btn-success"); 
                 document.getElementById("botao1").innerHTML = "Correto";
